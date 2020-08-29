@@ -499,9 +499,7 @@ public class DataManager {
 
 	
 
-private static void searchValueInIndex(String indexDirPath, String node,
-											HashMap<String, Boolean> nodeLeafMap, String columnValue, 
-											long start, SearchResult result, QueryPanel qp) {
+private static void searchValueInIndex(String indexDirPath, String node,HashMap<String, Boolean> nodeLeafMap, String columnValue, long start, SearchResult result, QueryPanel qp) {
 		Boolean isLeaf = nodeLeafMap.get(node);
 
 		if (!isLeaf) {
